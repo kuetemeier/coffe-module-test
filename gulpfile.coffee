@@ -4,6 +4,7 @@ gutil = require 'gulp-util'
 coffee = require 'gulp-coffee'
 istanbul = require 'gulp-istanbul'
 mocha = require 'gulp-mocha'
+coveralls = require 'gulp-coveralls'
 
 gulp.task 'coffee', ->
   gulp.src './src/**/*.coffee'
@@ -23,4 +24,7 @@ gulp.task 'test', ['coffee'], ->
           # coverageVariable: 'someVariable'
         }) # Creating the reports after tests run
 
-gulp.task 'default', ['coffee']
+  gulp.src 'coverage/**/lcov.info'
+    .pipe(coveralls())
+
+gulp.task 'default', ['test', 'coffee']
