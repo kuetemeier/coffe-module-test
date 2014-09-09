@@ -1,5 +1,7 @@
 # coffe-module-test
 
+WARNING: This is my little playground for testing new CoffeeScript Node Module features!
+
 [![Dependency status](http://img.shields.io/david/jkuetemeier/coffe-module-test.svg?style=flat)](https://david-dm.org/jkuetemeier/coffe-module-test)
 [![devDependency Status](http://img.shields.io/david/dev/jkuetemeier/coffe-module-test.svg?style=flat)](https://david-dm.org/jkuetemeier/coffe-module-test#info=devDependencies)
 [![Build Status](http://img.shields.io/travis/jkuetemeier/coffe-module-test.svg?style=flat&branch=master)](https://travis-ci.org/jkuetemeier/coffe-module-test)
