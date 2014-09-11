@@ -1,10 +1,15 @@
 # Load all required libraries.
 gulp = require 'gulp'
-gutil = require 'gulp-util'
-coffee = require 'gulp-coffee'
-istanbul = require 'gulp-istanbul'
-mocha = require 'gulp-mocha'
-coveralls = require 'gulp-coveralls'
+
+require('gulp-load')(gulp)
+
+gulp.loadTasks __dirname
+
+#gutil = require 'gulp-util'
+#coffee = require 'gulp-coffee'
+#istanbul = require 'gulp-istanbul'
+#mocha = require 'gulp-mocha'
+#coveralls = require 'gulp-coveralls'
 
 gulp.task 'coffee', ->
   gulp.src './src/**/*.coffee'
