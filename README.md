@@ -1,3 +1,7 @@
+## Archived
+
+This code is archived and stays here for you personal reference. Visit me on https://wolfszwinkern.com for fresh tips.
+
 # coffe-module-test
 
 WARNING: This is my little playground for testing new CoffeeScript Node Module features!
